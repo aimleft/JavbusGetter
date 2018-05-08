@@ -11,6 +11,9 @@
 - pymongo
 
 ### 使用方法
+`apt-get install python3-pip`
+`pip3 install BeautifulSoup4 requests pymongo`
+
 1. `git clone https://github.com/MyFaith/JavbusGetter.git`
 2. `pip install BeautifulSoup4 requests pymongo`
 3. 修改javbus.py中的服务器配置 `mongo = MongoClient(host='192.168.199.217')`
