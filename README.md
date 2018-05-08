@@ -1,6 +1,6 @@
 # 番号磁链获取器
 获取Javbus上的数据并保存到MongoDB数据库
-
+python3
 ### 依赖库
 - requests
 - BeautifulSoup4
