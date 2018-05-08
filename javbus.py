@@ -111,9 +111,9 @@ def main(max_page, thread_num, av_type):
     page_queue = queue.Queue()
     # 判断类型
     if av_type == 1:
-        url = 'http://www.javbus.com/page/page_num'
+        url = 'http://www.javbus.me/page/page_num'
     elif av_type == 2:
-        url = 'http://www.javbus.com/uncensored/page/page_num'
+        url = 'http://www.javbus.me/uncensored/page/page_num'
     else:
         print('类型不正确, 1: 有码 2: 无码')
         sys.exit(0)
